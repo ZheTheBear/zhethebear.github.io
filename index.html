@@ -1,16 +1,101 @@
 <!DOCTYPE html>
+<!--Created by ZHE -->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title> ZHE'S LAIR </title>
-    <link rel="stylesheet" href="css/main.css" />
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <title> ZHE </title>
+    <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="icon" href="images/favicon.png" />
   </head>
 
   <body>
-    <p> Lugar personal </p>
+    <!-- NAVBAR -->
+	<nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+	
+		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		<a> ZHE'S LAIR </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Inicio </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Proyectos </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Colección </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Servicios </a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	</nav>
+	
+	<!-- IMG CAROUSEL -->
+	
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/img.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">ZHE's LAIR</h1>
+					<h3> La web donde están mis cosillas </h3>
+					<button type="button" class="btn btn-outline-light btn-lg">BOTON</button>
+					<button type="button" class="btn btn-primary btn-lg">OTRO</button>
+				</div>
+			</div>
+			<div class="carousel-item ">
+				<img src="img/img2.jpg">
+			</div>
+			<div class="carousel-item "> <!-- ON HOVER CHANGE POINTER-->
+				<img src="img/img.jpg">
+			</div>
+		</div>
+	</div>
+	
+	<!-- JUMBOTRON -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+					<h3> El rincón de Zhe... ¡Ahora en internet! </h3>
+					<p class="lead"> Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...Aquí va un párrafo largo...</p>
+					
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+					<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg"> CONTACTO</button></a>
+				</div>
+		</div>
+	</div>
+	
+	<!-- WELCOME -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4"> Lo que hay aquí <h1>
+				<!--CONTINUAR AQUÍ 23:35 https://www.youtube.com/watch?v=9cKsq14Kfsw-->
+			</div>
+		</div>
+	</div>
+	<!---->
   </body>
 </html>
+
