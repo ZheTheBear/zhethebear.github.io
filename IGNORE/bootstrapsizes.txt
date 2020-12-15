@@ -1,0 +1,5 @@
+xs less than 576px
+sm more than 576px
+md more than 768px
+lg more than 992px
+xl more than 1200px
